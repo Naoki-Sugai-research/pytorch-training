@@ -2,11 +2,10 @@
 
 class BankAccount:
 
-
-    def__init__(self, name):
-    self.name = name
-    self.balance = 0
-    self.interest_rate = 0.01
+    def __init__(self, name):
+        self.name = name
+        self.balance = 0
+        self.interest_rate = 0.01
 
     def deposit(self, money):
         self.balance += money
